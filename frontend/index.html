@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerPrepAi: AI mock interviews by voice</title>
+  <meta name="description" content="Practice interviews with Aria, an AI interviewer. A technical round for your role and a resume round on every project and job you list, then a report for each round. Free during beta." />
+  <meta name="theme-color" content="#F0F2F6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0B0D13" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CareerPrepAi" />
+  <meta property="og:title" content="CareerPrepAi: AI mock interviews by voice" />
+  <meta property="og:description" content="A technical round and a resume round with Aria, your AI interviewer, then a report for each. Free during beta." />
+  <meta property="og:image:alt" content="Aria, the AI interviewer, in the CareerPrepAi call room." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Apply the saved theme before first paint to avoid a flash. With no saved choice the OS setting applies via CSS. -->
+  <script>
+    try {
+      var t = localStorage.getItem('cpai_theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <noscript>CareerPrepAi needs JavaScript to run the interview room. Please enable it and reload.</noscript>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

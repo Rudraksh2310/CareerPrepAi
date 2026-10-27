@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Secrets (keep .env.example, ignore the real ones)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database dumps and local vector DB (can contain user data)
+*.dump
+*.sql
+backend/.chroma/
+.chroma/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

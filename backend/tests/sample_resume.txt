@@ -1,0 +1,37 @@
+DEVANSH VATS
+devansh@example.com | github.com/dv
+
+SUMMARY
+Final year BCA student interested in backend development.
+
+EDUCATION
+Bachelor of Computer Applications (Hons), Christ University, Bangalore  2022 - 2025
+CGPA 8.4
+
+EXPERIENCE
+Software Development Intern | Acme Technologies | Jun 2024 - Aug 2024
+• Built REST APIs in FastAPI and PostgreSQL for the billing module
+• Reduced report generation time from 40s to 6s by adding Redis caching
+• Wrote unit tests with pytest and set up a CI pipeline on GitHub Actions
+Web Developer (Freelance)
+Jan 2023 - Present
+- Built three small business websites using React and Node.js
+
+PROJECTS
+Smart Attendance System | Python, OpenCV, Flask
+• Face recognition based attendance with 94% accuracy on a class of 60 students
+• Deployed on a Raspberry Pi
+CareerPrepAI - AI interview coach
+• Voice-based mock interviews using FastAPI, React and RAG
+• Integrated Whisper for speech to text
+
+SKILLS
+Python, Java, SQL, FastAPI, React, Docker, Git
+
+CERTIFICATIONS
+AWS Cloud Practitioner (2024)
+Google Data Analytics Certificate
+
+ACHIEVEMENTS
+• Winner, Smart India Hackathon 2023 (internal round)
+• Led the college coding club with 80 members
